@@ -512,9 +512,11 @@ p {
 .card-box,
 .da-card {
   background-color: #fff;
-  border-radius: 10px;
-  -webkit-box-shadow: 0 0 28px rgba(0, 0, 0, 0.08);
-  box-shadow: 0 0 28px rgba(0, 0, 0, 0.08);
+  border-radius: 7px;
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+.card-box{
+  cursor: pointer;
 }
 .card-img-top {
   border-radius: 10px 10px 0 0;
@@ -4269,4 +4271,20 @@ body.IE .register-page-wrap .container {
   .register-page-wrap .wizard-content .wizard .steps {
     display: none;
   }
+}
+.circle-progress-value {
+	stroke-width: 6px;
+	stroke: hsl(100, 100%, 60%);
+	stroke-dasharray: 0.6 3;
+}
+.circle-progress-circle {
+	stroke-width: 6px;
+	stroke: #ddd;
+	stroke-dasharray: 0.6 3;
+	stroke-dashoffset: 1.6;
+}
+.circle-progress-text {
+	font-family: "Gotham Rounded Light";
+	fill: hsl(100, 81%, 55%);
+	font-size: 26px;
 }

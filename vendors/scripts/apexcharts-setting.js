@@ -62,7 +62,7 @@ var options = {
 		},
 	}
 };
-var chart = new ApexCharts(document.querySelector("#chart1"), options);
+var chart = new ApexCharts(document.querySelector("#chart1s"), options);
 chart.render();
 
 var options2 = {
